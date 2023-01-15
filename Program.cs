@@ -15,8 +15,8 @@ int size = Convert.ToInt32(Console.ReadLine());
 double[] nums = new double[size];
 FillArrayRandomNumbers(nums);
 Console.WriteLine($" [ {String.Join(" ", nums)}]");
-double min = Int32.MaxValue;
-double max = Int32.MinValue;
+double min = 1000;
+double max = -1;
 
 for (int i = 0; i < nums.Length; i++)
 {
